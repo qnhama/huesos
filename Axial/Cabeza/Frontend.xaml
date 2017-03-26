@@ -1,0 +1,22 @@
+<Grid Grid.Row="0" Margin="38,150,972,73">
+                        <k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="HuesoFrontalComprobacion" Click="HuesoFrontalComprobacion_Click" Margin="10,10,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="HUESO FRONTAL" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="HuesoParietalComprobacion" Click="HuesoParietalComprobacion_Click" Margin="10,292,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="HUESO PARIETAL" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="HuesoEsfenoidesComprobacion" Click="HuesoEsfenoidesComprobacion_Click" Margin="10,251,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="HUESO ESFENOIDES" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+                    </Grid>
+                    <Grid Grid.Row="0">
+                        <k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="HuesoFrontal" Click="huesoFrontalButton_Click" Margin="274,110,0,0" Height="42" Width="135" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" HorizontalLabelAlignment="Center" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center" Height="38"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="HuesoParietal" Click="HuesoParietalsButton_Click" Margin="260,359,0,0" Height="56" Width="120" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+                        <k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="HuesoEsfenoides" Click="HuesoEsfenoidesButton_Click" Margin="260,485,0,0" Height="54" Width="120" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VertaicalContentAlignment="Top" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+                    </Grid>
