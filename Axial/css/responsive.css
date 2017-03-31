@@ -1,0 +1,197 @@
+/*
+	* Template name: Maxwell - Onepage Business Template
+	* Template URI: http://koder.top
+	* Version: 1.0	
+	* Author: Farhadur Rahim
+	* Author URI: https://themeforest.net/user/webmechanicx
+*/
+
+/*====================== start responsive style =====================*/
+  
+@media(max-width:991px ){
+  .navbar-default .navbar-brand {
+    font-size: 18px;
+  }
+  
+  .navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+	padding: 18px 9px;
+  }
+  
+  .navbar-nav > li > .dropdown-menu li a {
+    font-size: 14px;
+  }
+  
+  .navbar-brand {
+    width: 160px;
+  }
+  
+  .navbar-brand img {
+    max-width: 100%;
+  }
+  
+  .btn-2x {
+    width: 24%;
+  }
+  
+  #contactus .counterbox span {
+    float: none !important;
+  }
+  
+  #contactus .counterbox span:first-child {
+    margin-bottom: 10px;
+  }
+  
+}
+
+
+@media(max-width:767px) {
+  
+  .navbar-default {
+    padding: 0px;
+  }
+  
+  #navbar.collapse.in,
+  #navbar.collapsing {
+    background-color: #fff;
+  }
+  
+  .navbar-toggle {
+    border-radius: 0px;
+  }
+  
+  .navbar-default .navbar-nav > li > a, 
+  .affix.navbar-default .navbar-nav > li > a {
+    color: #7a838c;
+    padding: 10px 20px;
+	border-bottom: 1px solid #e7e7e7;
+  }
+  
+  .navbar-default .navbar-nav > li:last-child > a {
+    border-bottom: 0 none;
+  }
+  
+  .navbar-default .navbar-nav > li > a > .bar-fx, 
+  .navbar-default .navbar-nav > li.active > a  > .bar-fx {
+    display: none;
+	visibility: hidden;
+  }
+   
+  .navbar-default .navbar-nav > li.active > a, 
+  .navbar-default .navbar-nav > li.active > a:hover, 
+  .navbar-default .navbar-nav > li > a:focus, 
+  .navbar-default .navbar-nav > li > a:hover, 
+  .affix.navbar-default .navbar-nav > li > a:focus, 
+  .affix.navbar-default .navbar-nav > li > a:hover {
+    color: #163663;
+  }
+  
+  .navbar-nav > li > .dropdown-menu {
+    left: 15px;
+  }	
+  
+  .navbar-nav > li > .dropdown-menu:before {
+    border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	right: 65%;
+  }
+  
+  .navbar-toggle {
+    margin-top: 15px;
+  }
+  
+  .navbar-default .navbar-brand {
+    margin-bottom: 8px;
+	margin-top: 8px;
+  }
+  
+  .navbar-nav > li > .dropdown-menu:before {
+    display: none;
+  }
+  
+  .navbar-brand {
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  .navbar-default .navbar-nav > .open > a, 
+  .navbar-default .navbar-nav > .open > a:focus, 
+  .navbar-default .navbar-nav > .open > a:hover {
+    color: #163663;
+	border-color: #e7e7e7;
+  }
+
+  .navbar-nav > li > .dropdown-menu li a {
+    font-size: 14px;
+  }
+  
+  /* General */
+  
+  .section-heading h2 {
+    font-size: 30px;
+	line-height: normal;
+  }
+  
+  /* Slideshow Section */
+  
+  .slide-item h2 {
+    font-size: 32px;
+  }
+  
+  .slide-item p {
+    font-size: 18px;
+  }
+  
+  .btn-2x {
+    width: 50%;
+  }
+  
+  /* Service Section*/
+  
+  #service .service-img {
+    margin-bottom: 50px;
+  }
+  
+  #service .service-img img {
+    margin: 0 auto;
+  }
+
+  #service .service-list ul li {
+    padding-left: 20px;
+  }
+  
+  #service .service-list ul li.odd {
+    padding-left: 0px;
+  }
+  
+  #service .service-list h3 {
+    font-size: 18px;
+  }
+  
+  /* Feedback Section */
+  
+  #feedback .feedbackslider .feedback-item > p {
+    font-size: 22px;
+  }
+  
+  #feedback .feedbackslider .feedback-item > p:before {
+    left: 25px;
+    top: -5px;
+  }
+
+  #feedback .feedbackslider .feedback-item > p:after {
+    right: 25px;
+    top: 10px;
+  }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 360px) {
+  .social-links li {
+    margin-left: 4px;
+  }
+  #feedback .feedbackslider .feedback-item > p {
+    font-size: 16px;
+  }
+}
