@@ -1,0 +1,12 @@
+los huesos que se repiten son los siguientes
+
+sacro---->columna, pierna, cintura
+coxis----> columna y cintura
+
+metatarsianos--->pie y pierna
+
+Proximal----->pie y mano
+Media-------->pie y mano
+Distal------->pie y mano
+
+Clavicula---->Brazo

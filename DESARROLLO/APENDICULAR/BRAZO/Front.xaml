@@ -1,0 +1,62 @@
+////////BRAZO
+<Grid Grid.Row="0" Margin="38,150,972,73">
+                        <k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="ClaviculaBrazoComprobacion" Click="ClaviculaBrazoComprobacion_Click" Margin="10,292,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="CLAVICULA" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="EscapulaComprobacion" Click="EscapulaComprobacion_Click" Margin="10,292,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="ESCAPULA" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="HumeroComprobacion" Click="HumeroComprobacion_Click" Margin="10,292,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="HUMERO" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="RadioComprobacion" Click="RadioComprobacion_Click" Margin="10,292,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="RADIO" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="CubitoComprobacion" Click="CubitoComprobacion_Click" Margin="10,292,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="CUBITO" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="MuñecaComprobacion" Click="MuñecaComprobacion_Click" Margin="10,292,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="MUÑECA" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="HuesosCarpianosComprobacion" Click="HuesosCarpianosComprobacion_Click" Margin="10,292,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="HUESOS CARPIANOS" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="MetacarpianosBrazoComprobacion" Click="MetacarpianosBrazoComprobacion_Click" Margin="10,292,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="METACARPIANOS" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="FalangesBrazoComprobacion" Click="FalangesBrazoComprobacion_Click" Margin="10,292,0,0" Height="36" Width="196" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontSize="20" Background="#FFF2F2F2" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Foreground="#FF6B6B6B" BorderBrush="#FFA4A3A3" >
+                            <TextBlock Text="FALANGES" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+					
+                    </Grid>
+                    <Grid Grid.Row="0">
+                        <k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="ClaviculaBrazo" Click="ClaviculaBrazoButton_Click" Margin="260,359,0,0" Height="56" Width="120" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="Escapula" Click="EscapulaButton_Click" Margin="260,359,0,0" Height="56" Width="120" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="Humero" Click="HumeroButton_Click" Margin="260,359,0,0" Height="56" Width="120" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="Radio" Click="RadioButton_Click" Margin="260,359,0,0" Height="56" Width="120" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="Cubito" Click="CubitoButton_Click" Margin="260,359,0,0" Height="56" Width="120" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="Muñeca" Click="MuñecaButton_Click" Margin="260,359,0,0" Height="56" Width="120" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="HuesosCarpianos" Click="HuesosCarpianosButton_Click" Margin="260,359,0,0" Height="56" Width="120" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="MetacarpianosBrazo" Click="MetacarpianosBrazoButton_Click" Margin="260,359,0,0" Height="56" Width="120" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						<k:KinectTileButton  HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="FalangesBrazo" Click="FalangesBrazoButton_Click" Margin="260,359,0,0" Height="56" Width="120" Panel.ZIndex="1" LabelBackground="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" FontSize="14" Background="#FF939597" FontStretch="Expanded" TextOptions.TextHintingMode="Fixed" RenderTransformOrigin="0.514,0.559" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" >
+                            <TextBlock  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </k:KinectTileButton>
+						
+						
+                    </Grid>
